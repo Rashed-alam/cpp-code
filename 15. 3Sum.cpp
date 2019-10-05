@@ -9,11 +9,7 @@ int main(){
 //    for(i=0;i<n;i++){
 //        cin>>a[i];
 //    }
-zero(a,b,c){
-    for(i=0;i<3;i++){
 
-    }
-}
     for(i=0;i<n;i++){
         for(j=i+1;j<n;j++){
             for(k=j+1;k<n;k++){

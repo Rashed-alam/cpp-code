@@ -33,7 +33,7 @@ for(k=0;k<n-2;k++){
         cout<<"target :"<<min_res<<" "<<ans<<endl;
         min_res=ans;
 
-       // cout<<min_res;
+//  cout<<min_res;
 //        cout<<"ans2"<<min_res<<a[k]<<" "<<a[left]<<" "<a[right];
     }
     }

@@ -12,23 +12,15 @@ int main()
 for(i=0;i<8;i++){
     count[i]=0;
 }
-for(i=0;i<n;i++){
-    cout<<i<<' '<<count[i]<<endl;
 
-}
 
 for(j=0;j<n;j++){
     count[a[j]]++;
 
 }
 
-cout<<endl;
-for(i=0;i<n;i++){
-    cout<<i<<' '<<count[i]<<endl;
 
-}
-cout<<"ki prvblm?"<<count[5];
-cout<<endl;
+
 for(i=0;i<n;i++){
         k=a[i];
     if(count[a[i]]==2 && !mp[k]){

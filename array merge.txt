@@ -1,0 +1,67 @@
+// vector::pop_back
+#include <iostream>
+#include <vector>
+#include <bits/stdc++.h> 
+
+int main ()
+{
+  std::vector<int> nums1{ 1,2,3,0,0,0};
+  std::vector<int> nums2{ 2,5,6 };
+  int m=3,n=3;
+    // int right = m + n - 1;
+    //     m--;
+    //     n--;
+        
+        
+        //       while(m>=0 && n>=0)
+        // {
+            
+        //     nums1[right]=nums1[m]>nums2[n]?nums1[m] :nums2[n];
+        //     // if(nums1[m] > nums2[n])
+        //     // {
+        //     //     int temp = nums1[m];
+        //     //     nums1[right] = temp;
+        //     //     m--;
+        //     //     right--;
+        //     // }
+        //     // else
+        //     // {
+        //     //     int temp = nums2[n];
+        //     //     nums1[right] = temp;
+        //     //     n--;
+        //     //     right--;
+        //     // }
+             
+        //      n--;
+        //      m--;
+        //     right--;
+        // }
+int end = m+n-1;
+        int end1 = m -1;
+        int end2 = n -1;
+
+        while(end2 >= 0){
+            
+              std::cout << "The elements of myvector add up to " <<nums1[end1--]<< '\n';
+            // if(end1 >=0){
+            //     nums1[end--] = nums1[end1] > nums2[end2] ? nums1[end1--] : nums2[end2--];
+            // }else{
+            //     nums1[end--] = nums2[end2--];
+            // }
+            end2--;
+        }  
+
+
+//     int i=0;
+//   while (i<nums1.size())
+//   {
+//     // sum+=myvector.back();
+//     // myvector.pop_back();
+//     std::cout << "The elements of myvector add up to " <<nums1[i]<< '\n';
+//     i++;
+//   }
+
+//   std::cout << "The elements of myvector add up to " <<myvector.size()<< '\n';
+
+  return 0;
+}
